@@ -3,6 +3,7 @@ import {
   AntigravityIcon,
   ClaudeAI,
   CursorIcon,
+  DeepSeekIcon,
   GrokIcon,
   Icon,
   KimiIcon,
@@ -17,6 +18,7 @@ export const PROVIDER_ICON_BY_PROVIDER: Partial<Record<ProviderDriverKind, Icon>
   [ProviderDriverKind.make("cursor")]: CursorIcon,
   [ProviderDriverKind.make("grok")]: GrokIcon,
   [ProviderDriverKind.make("kimi")]: KimiIcon,
+  [ProviderDriverKind.make("deepseek")]: DeepSeekIcon,
   [ProviderDriverKind.make("antigravity")]: AntigravityIcon,
 };
 
